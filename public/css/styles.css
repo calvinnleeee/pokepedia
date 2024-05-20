@@ -1,0 +1,41 @@
+body {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.typeFilter {
+  margin-bottom: 5px;
+  max-width: 200px;
+  width: 8vw;
+}
+
+#card-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.card-title {
+  font-size: 16pt;
+  font-weight: bold;
+  height: 70px;
+}
+
+.card {
+  width: 200px;
+  height: 325px;
+  text-wrap: wrap;
+}
+
+.img-size {
+  width: 150px;
+  height: auto;
+  margin: auto;
+}
+
+.modal-img {
+  height: auto;
+  width: 225px;
+  display: block;
+}
