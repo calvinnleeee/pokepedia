@@ -1,6 +1,17 @@
 <%- include('templates/header'); %>
 
+<div class="d-flex mt-4 container text-center justify-content-evenly" id="category">
+  <a role="button" href="#" type="button" class="btn btn-secondary category-btn category-active">Pokemon</a>
+  <a role="button" href="/abilities" type="button" class="btn btn-secondary category-btn">Abilities</a>
+  <a role="button" href="/moves" type="button" class="btn btn-secondary category-btn">Moves</a>
+  <a role="button" href="/types" type="button" class="btn btn-secondary category-btn">Types</a>
+</div>
+
 <%- include('templates/filter'); %>
+
+<div class="container text-center my-3" id="search-bar">
+  <input type="text" placeholder="Search here...">
+</div>
 
 <div class="container" id="card-header">
   
@@ -30,5 +41,7 @@
     </div>
   </div>
 </div>
+
+<script src="/js/pokemon.js"></script>
 
 <%- include('templates/footer'); %>

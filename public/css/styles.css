@@ -3,6 +3,14 @@ body {
   margin: auto;
 }
 
+.category-btn {
+  width: 200px;
+}
+
+.category-active {
+  background-color: #0d6efd;
+}
+
 .typeFilter {
   margin-bottom: 5px;
   max-width: 200px;
